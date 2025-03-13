@@ -1,4 +1,5 @@
 import mujoco
+import mujoco.viewer
 
 # Load the MuJoCo model
 model = mujoco.MjModel.from_xml_path("slope_box.xml")
